@@ -1,0 +1,140 @@
+﻿/*All PAGES*/
+body
+{
+    background-color:lightgray;
+}
+
+h1.Titolo
+{
+    font-family:fontawesome;
+    color:darkblue;
+    font-size:40px;
+}
+h1.Sottotitolo
+{
+    font-family:fontawesome;
+    font-size:25px;
+    color:red;
+}
+
+/*BARRA DEI BOTTONI*/
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0067b8;
+}
+li 
+{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li .ButtonAsp 
+{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:#0067b8;
+    color:white;
+    border:none;
+    border-radius :0px;
+    font-size:20px
+}
+li .ButtonAsp:hover
+{
+    background-color: #111;
+}
+
+/*Index*/
+
+table.IntestazioneIndex
+{
+    width: 75%;
+    border-collapse: collapse;   
+    background-color:white; 
+    
+}
+td.IntestazioneIndex
+{       
+    /*bordo*/
+    border: 4px solid green;
+
+    /*testo*/
+    text-align: center;
+    font:normal Verdana ;
+
+    /*dimensioni*/
+    height: 35px;
+    width:50%;    
+    padding : 10px;
+
+}
+td.CorpoIndex
+{
+    text-align:justify;
+    width: auto;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:25%;
+    padding-top:40px;
+    border: 4px solid green;
+
+}
+
+/*Registrati*/
+table.Registrati
+{
+    width: 75%;
+    border-collapse: collapse;
+}
+td.Registrati
+{          
+    text-align: center;
+
+    /*dimensioni*/
+    height: 35px;
+    width:50%;    
+    padding : 10px;
+
+}
+/*RISULTATI*/
+table.Risultati
+{
+    width: 90%;
+    border-collapse: collapse;
+}
+td.Risultati
+{              
+    text-align: center;
+    /*dimensioni*/
+    height: 35px;
+    width:50%;    
+    padding : 10px;
+
+}
+/*Vota*/
+table.Vota
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+td.VotaGridView, td.VotaButton
+{              
+    text-align: center;
+    /*dimensioni*/
+    height: 35px;
+    width:40%;    
+    padding : 10px;
+
+}
+td.VotaButton
+{              
+    width:10%;
+}
+div.Vota
+{
+    vertical-align: middle;
+}

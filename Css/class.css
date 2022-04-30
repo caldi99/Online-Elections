@@ -1,0 +1,128 @@
+﻿.Testo,.ButtonAsp,.AspTextBox,.HyperLink
+{
+    /*font testo*/
+    font-family : Century;
+    text-align:left;
+    font-size :larger;
+}
+.ButtonAsp
+{    
+     /*font testo*/
+     font-size:medium;
+     text-align: center;
+
+    /* bordi bottone */
+    border: 2px solid green;
+    border-radius : 8px;
+
+    /*sfondo*/
+    background-color: white; 
+    color: black; 
+
+    /*spaziatura font-bottone*/
+    padding: 5px 15px;
+    
+    /*visualizzazione*/
+    display: inline-block;   
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+}
+/*bottone asp effetti quando clicco*/
+.ButtonAsp:hover
+{
+    background-color: green; /* Green */
+    color: white;
+
+}
+.AspTextBox
+{    
+    border-radius: 2px;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    font-size:small;
+}
+a.HyperLink
+{
+     color: grey;
+     font-size:small
+}  
+a.HyperLink:visited 
+{ 
+    color: red;
+}
+
+/*Registrati*/
+
+.ButtonAspRegistrati 
+{
+    background-color: #0067b8;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: content-box;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: "Calibri","Georgia",serif;
+    border: none;
+    
+}
+.AspTextBoxRegistrati
+{
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 75%;
+  padding: 5px 5px;
+  box-sizing:content-box;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Calibri","Georgia",serif;
+}
+.AspDateRegistrati 
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 75%;
+    padding: 5px 5px;
+    box-sizing: content-box;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: "Calibri","Georgia",serif;
+    text-align: center;
+}
+.AspLabelRegistrati
+{
+  font-size: 20px;
+  font-family: "Calibri","Georgia",serif;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.ButtonFieldCamera
+{
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #FFCC00; 
+}
+.ButtonFieldSenato
+{
+     background-color: white;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #D975D7; 
+}
